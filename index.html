@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/script.js" defer></script>
+    <title>Produto</title>
+</head>
+<body>
+    <header id="rolagem">
+        <section class="logo">
+            <img src="imgs/logo.png" alt="logo" srcset="">
+        </section>
+        <section class="nav">
+            <nav>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">produto</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <section class="produto">
+        <div class="container">
+            <article class="img-produto">
+                
+                <div class="img">
+                    <img src="http://177.221.240.103:3495/img_produto_p/023.007.3.png"  alt="" class="lupa">
+                </div>
+            </article>
+            <article class="descricao">
+                <h1 id="descricao-principal">JG BUCHAS SUSP FEIXE MOLA TRAS FIORINO/STRADA PNEU</h1>
+                <div class="valores">                 
+                        <p id="Vendidos">Vendidos: 5 mil...</p>
+                        <h2>Aplicação:</h2>
+                        <div class="aplicacao">
+                            <p>*JOGO DE BUCHAS SUSPENSAO FEIXE DE MOLA TRASEIRO FIORINO 1994/... PICKUP STRADA 1999/...</p>
+                        </div>
+                        <p>Estoque atual: <span id="estoque"></span></p>
+                        <h3>
+                            Preço: <br><span id="valor-do-item"></span>
+
+                        </h3>
+                        
+                        <p id="quantidade">
+                            Quantidade Embalagem:
+                            <span onclick="subtrair()" id="subtrair-quantidade">-</span><span id="quantidades"></span> <span onclick="somar()" id="somar-quantidade">+</span>
+                            <span id="quantidade-min"></span>
+                        </p>
+                    </div>
+            </article>
+        </div>
+    </section>
+</body>
+</html>
